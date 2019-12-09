@@ -1,3 +1,37 @@
 body {
-    
+    margin: 0;
+    padding: 0;
+    background: forestgreen;
+}
+
+.page-wrapper {
+    width: 750px;
+    margin: 0 auto;
+    background: ghostwhite;
+}
+
+h1 {
+    background: firebrick;
+}
+
+.intro {
+    background: goldenrod;
+}
+
+#zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+    background: grey;
+    float: left;
+    width: 500px;
+}
+
+footer {
+    background: black;
+    clear: both;
+}
+
+aside {
+    background: forestgreen;
+    float: right;
+    width: 250px;
+
 }
