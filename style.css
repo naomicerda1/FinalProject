@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Acme|Ibarra+Real+Nova|Luckiest+Guy|Vidaloka|Zilla+Slab&display=swap');
+</style>
+
 body {
     margin: 0;
     padding: 0;
@@ -7,16 +11,34 @@ body {
 .page-wrapper {
     width: 750px;
     margin: 0 auto;
-    background: ghostwhite;
+    background: forestgreen;
 }
 
 h1 {
+    text-align: center;
     background: firebrick;
-    margin: 20px;
+    font-size: 70px;
+    border: 8px double white;
+    margin: 5px;
+
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+h3 {
+    font-size: 40px;
+
 }
 
 .intro {
     background: goldenrod;
+    width: 700px;
+    margin: 10px;
+    padding: 5px;
+    border: 7px solid black;
 }
 
 #zen-supporting {
@@ -25,7 +47,7 @@ h1 {
     width: 400px;
     height: 300px;
     padding: 10px;
-    border: 5px dotted firebrick;
+    border: 7px solid firebrick;
 }
 
 #zen-participation, #zen-benefits, #zen-requirements {
@@ -40,11 +62,14 @@ h1 {
 footer {
     background: black;
     clear: both;
+    text-align: center;
 }
 
 aside {
     background: forestgreen;
     float: right;
     width: 250px;
+    border-left: black 3px solid;
+    padding-left: 8px;
 
 }
