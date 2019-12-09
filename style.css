@@ -12,16 +12,29 @@ body {
 
 h1 {
     background: firebrick;
+    margin: 20px;
 }
 
 .intro {
     background: goldenrod;
 }
 
-#zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+#zen-supporting {
+    background: ghostwhite;
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border: 5px dotted firebrick;
+}
+
+#zen-participation, #zen-benefits, #zen-requirements {
     background: grey;
     float: left;
-    width: 500px;
+    width: 400px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    border: 7px solid black;
 }
 
 footer {
