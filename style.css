@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Ibarra+Real+Nova|Luckiest+Guy|Vidaloka|Zilla+Slab&display=swap');
 
+@import url("/css/style2.css");
+
 body {
     margin: 0;
     padding: 0;
