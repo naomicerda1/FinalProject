@@ -18,6 +18,7 @@ h1 {
     font-size: 70px;
     border: 8px double white;
     margin: 5px;
+    text-shadow: 5px 5px white;
     font-family: 'Luckiest Guy', cursive;
 }
 
@@ -39,10 +40,17 @@ h2, h3 {
     background: ghostwhite;
     float: left;
     width: 410px;
-    height: 320px;
+    height: 350px;
     padding: 10px;
     border: 7px solid firebrick;
     font-family: 'Zilla Slab', serif;
+    text-indent: 1em; 
+}
+
+p::first-letter {
+    font-weight: bolder;
+    color: rgb(4, 54, 4);
+    font-size: 25px;
 }
 
 #zen-participation, #zen-benefits, #zen-requirements {
@@ -53,6 +61,7 @@ h2, h3 {
     margin: 10px;
     border: 7px solid black;
     font-family: 'Zilla Slab', serif;
+    text-indent: 1em;
 }
 
 footer {
