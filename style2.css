@@ -1,46 +1,7 @@
 @import url(style.css);
-@import url(style2.css);
 
-body {
-    position: absolute;
+* {
+    margin: 0;
+    padding: 0; 
 }
 
-.page-wrapper {
-    
-}
-
-h1 {
-    
-}
-
-h2, h3 {
-    
-}
-
-.intro {
-    
-}
-
-#zen-supporting {
-    
-}
-
-p::first-letter {
-    
-}
-
-#zen-participation, #zen-benefits, #zen-requirements {
-    
-}
-
-footer {
-    
-}
-
-aside {
-    position: fixed;
-    top: 0%;
-    right: 5px;
-    background: white;
-   
-}
