@@ -1,6 +1,4 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Acme|Ibarra+Real+Nova|Luckiest+Guy|Vidaloka|Zilla+Slab&display=swap');
-</style>
 
 body {
     margin: 0;
@@ -20,17 +18,12 @@ h1 {
     font-size: 70px;
     border: 8px double white;
     margin: 5px;
-
+    font-family: 'Luckiest Guy', cursive;
 }
 
-h2 {
+h2, h3 {
     font-size: 20px;
-
-}
-
-h3 {
-    font-size: 20px;
-
+    font-family: 'Acme', sans-serif;
 }
 
 .intro {
@@ -39,15 +32,17 @@ h3 {
     margin: 10px;
     padding: 5px;
     border: 7px solid black;
+    font-family: 'Zilla Slab', serif;
 }
 
 #zen-supporting {
     background: ghostwhite;
     float: left;
-    width: 400px;
-    height: 300px;
+    width: 410px;
+    height: 320px;
     padding: 10px;
     border: 7px solid firebrick;
+    font-family: 'Zilla Slab', serif;
 }
 
 #zen-participation, #zen-benefits, #zen-requirements {
@@ -57,12 +52,14 @@ h3 {
     padding: 10px 5px 10px 5px;
     margin: 10px;
     border: 7px solid black;
+    font-family: 'Zilla Slab', serif;
 }
 
 footer {
     background: black;
     clear: both;
     text-align: center;
+    font-family: 'Vidaloka', serif;
 }
 
 aside {
@@ -71,5 +68,5 @@ aside {
     width: 250px;
     border-left: black 3px solid;
     padding-left: 8px;
-
+    font-family: 'Ibarra Real Nova', serif;
 }
